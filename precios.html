@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Empresa que vende guitarras invisibles">
+	<title>DIVI - precios</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
+	<!--<link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="header" class="header background">
+		<div class="contenedor">
+			<!--Logotipo-->
+			<figure class="logotipo">
+				<img src="image/invie.png"/>
+			</figure>
+			<!--Menu-->
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#guitarras">Guitarras</a></li>
+					<li><a href="precios.html">Precios</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="tabla">
+		<div class="contenedor">
+			<table>
+				<thead>
+					<tr>
+						<th>Modelo</th>
+						<th>Precio</th>
+						<th>Descripción</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Invie classic</td>
+						<td>$100000</td>
+						<td>Una guitarra m pro</td>
+					</tr>
+					<tr>
+						<td>Invie classic</td>
+						<td>$100000</td>
+						<td>Una guitarra m pro</td>
+					</tr>
+					<tr>
+						<td>Invie classic</td>
+						<td>$100000</td>
+						<td>Una guitarra m pro</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<!--Footer-->
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="contacto">
+				<img src="image/invie-white.png" alt="logo blanco">
+				<a href="tel:+584122192736"><strong>Telefono: </strong><span>333333333</span></a>
+				<a href="mailto:contacto@invie.com"><strong>E-mail: </strong><span>contacto@invie.com</span></a>
+			</div>
+			<form class="formulario">
+				<div class="col1">
+					<label for="nombre">Nombre:</label>
+					<input type="text" required id="nombre" name="nombre" />
+
+					<label for="email">E-email:</label>
+					<input type="email" required id="email" name="email" />
+					<div class="sexo">
+						<label for="mujer">
+						<input type="radio" id="mujer" name="sexo" /> mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" /> hombre
+						</label>
+					</div>
+				</div>
+				<div class="col2">
+					<label for="comentarios">Comentarios:</label>
+					<textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
+					<input type="submit" value="Enviar" class="button" />
+				</div>
+			</form>
+		</div>
+	</footer>
+</body>
